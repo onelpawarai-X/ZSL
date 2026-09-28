@@ -1,0 +1,303 @@
+MEKRA-X LICENSE
+(ZYRAXON Sovereign License — X Edition's successor)
+
+Version 2.0.0
+
+Copyright (c) 2026 onelpawarai ("Licensor"). All Rights Reserved.
+Trademark: ZYRAXON, MEKRA, MYRA. Registered marks of onelpawarai.
+
+SPDX-License-Identifier: LicenseRef-ZYRAXON-MEKRA-X
+
+=======================================================================
+WHY THIS LICENSE EXISTS
+=======================================================================
+
+MEKRA-X is what ZSL-X was reaching toward. It keeps the same
+generous core — use it, learn from it, change it, build with it,
+give improvements back — and tightens the three things that
+matter if ZYRAXON is going to be a real business that real
+people depend on:
+
+    1. You may not sell it.
+    2. You may not publish a modified version as your own.
+    3. You may not remove the systems that make it work.
+
+The reason is not gatekeeping. It is that a paid product whose
+value comes from its systems should not be able to be copied
+into a free competitor by removing the very parts that make it
+worth paying for. Everything else stays open, on purpose.
+
+If you only want to use ZYRAXON, this license never limits you.
+Read Section 4 and start building.
+
+=======================================================================
+DEFINITIONS
+=======================================================================
+
+1.1 "Software" means ZYRAXON AI and MEKRA-X, including source
+    code, object code, build scripts, configuration,
+    documentation, and related assets, together with the Systems.
+
+1.2 "Licensor" means onelpawarai and their successors.
+
+1.3 "Licensee" means any individual or legal entity exercising any
+    right granted under this license.
+
+1.4 "Contribution" means work a Licensee intentionally submits to
+    the Licensor for inclusion in the Software.
+
+1.5 "Derivative Work" means a work based on or derived from the
+    Software.
+
+1.6 "Systems" means the functional components of the Software
+    identified in Section 2.1, including without limitation the
+    subscription and entitlement engine, the tool registry and
+    tier-gating logic, the agent mode system, the permission and
+    security system, the prompt and instruction system, the
+    licensing and activation system, the update and distribution
+    mechanism, and the origin and attribution system.
+
+1.7 "Trademark" means ZYRAXON, MEKRA, MYRA, the ZYRAXON logo and
+    marks, and any other mark of the Licensor.
+
+1.8 "Official Release" means a release published or authorized by
+    the Licensor.
+
+=======================================================================
+SYSTEMS — WHAT MUST NOT BE REMOVED
+=======================================================================
+
+2.1 The Systems are integral to the Software. A Licensee MAY
+    extend, replace the implementation of, improve, or add
+    features to any System, and MAY modify the Systems freely,
+    PROVIDED the System keeps working and the protections in
+    Section 2.2 are preserved.
+
+2.2 A Licensee MUST NOT, in any Derivative Work or
+    redistribution:
+
+    (a) disable, bypass, stub, or remove the subscription and
+        entitlement enforcement;
+    (b) disable, bypass, stub, or remove the tool tier gating;
+    (c) disable, bypass, stub, or remove the agent mode gating;
+    (d) disable, bypass, stub, or remove the permission, security,
+        or safety enforcement;
+    (e) disable, bypass, stub, or remove the licensing or
+        activation verification;
+    (f) remove, obscure, or falsify the origin, copyright, or
+        authorship notice;
+    (g) misrepresent the origin, authorship, or approval of the
+        Software, or imply the Licensor endorses a product the
+        Licensor did not approve;
+    (h) use the Software or a Derivative Work in a way whose
+        primary purpose is to defeat a paid tier of the Software.
+
+2.3 Where a Licensee changes a System, they MUST leave it in a
+    working state and MUST NOT introduce behavior whose purpose
+    is to defeat any other right in this license.
+
+=======================================================================
+GRANT OF RIGHTS
+=======================================================================
+
+3.1 Subject to this license, the Licensor grants each Licensee a
+    worldwide, royalty-free, non-exclusive license (revocable as
+    stated in Section 12) to exercise the rights in Sections 4
+    through 8.
+
+=======================================================================
+USE RIGHTS — NO PERMISSION REQUIRED
+=======================================================================
+
+4.1 Each Licensee MAY, with no separate permission and no fee:
+
+    (a) install and run the Software for any purpose, personal or
+        commercial;
+    (b) study, read, and inspect the source code and behavior;
+    (c) modify, adapt, refactor, port, or rewrite any portion of
+        the Software, including the Systems, subject to
+        Section 2;
+    (d) add new features, modules, tools, modes, or capabilities;
+    (e) create Derivative Works and combine the Software with
+        other works;
+    (f) create and build your own applications, products, and
+        projects using the Software, including applications you
+        distribute to your own users;
+    (g) use the Software internally within a company, including
+        production workloads and automation;
+    (h) contribute improvements back to the Licensor through
+        issues and pull requests;
+    (i) read and follow this license and its transition terms.
+
+4.2 Free and non-commercial use is expressly permitted, endorsed,
+    and never restricted by this license.
+
+4.3 A Licensee who only uses the Software, without selling or
+    redistributing it, owes the Licensor nothing and needs no
+    approval.
+
+=======================================================================
+REDISTRIBUTION AND SALE — STRICTLY LIMITED
+=======================================================================
+
+5.1 RESALE PROHIBITED. A Licensee MUST NOT sell, sublicense, rent,
+    lease, license out, or otherwise commercialize the Software
+    itself, in source or binary form, whether modified or
+    unmodified, including as a standalone product, a downloaded
+    build, a template, a starter kit, or a paid bundled
+    component. The right to sell the Software is reserved to the
+    Licensor.
+
+5.2 MODIFIED VERSION PUBLISHING PROHIBITED. A Licensee MUST NOT
+    publish, release, or distribute a modified version of the
+    Software, or a fork of it, as a public product, repository,
+    package, or release under the Licensee's own name or
+    branding. Pull requests to the Licensor's repository are
+    permitted and encouraged; republishing the result as the
+    Licensee's own release is not.
+
+5.3 A Licensee MAY distribute a Derivative Work built around the
+    Software that adds substantial original value, PROVIDED that:
+
+    (a) it is not the Software itself nor a substantially
+        complete copy of it;
+    (b) the Licensor's Systems remain intact and are not disabled
+        (Section 2.2);
+    (c) the attribution notice in Section 6 appears in the
+        Licensee's user-facing documentation and product surface;
+    (d) the Licensee does not imply the Licensor's endorsement;
+    (e) the Licensee does not use the Licensor's Trademark other
+        than to state the origin of the underlying Software.
+
+5.4 Internal-only Derivative Works, and Derivative Works used by
+    a Licensee purely for their own internal purposes, are not
+    redistribution and are permitted under Section 4 without the
+    conditions of Section 5.3.
+
+5.5 For clarity, the restrictions in this Section apply to the
+    Software as a product. Using the Software to build a
+    different product that users pay for is permitted under
+    Section 4.1(f) as long as the result is not a copy,
+    rebranding, or degraded form of the Software.
+
+=======================================================================
+ATTRIBUTION
+=======================================================================
+
+6.1 Any redistribution, public display, or Derivative Work
+    distributed under Section 5.3 MUST include:
+
+    (a) a prominent notice that the Software was originally
+        created by onelpawarai;
+    (b) a reference to the original project repository or URL;
+    (c) a statement that modifications have been made, if any;
+    (d) a copy of this license.
+
+6.2 Notices in source comments alone satisfy this section only
+    for internal use. A distributed Derivative Work MUST also
+    carry a user-facing notice.
+
+=======================================================================
+CONTRIBUTIONS
+=======================================================================
+
+7.1 A Contributor retains ownership of their Contribution, subject
+    to the license grant in Section 8.
+
+7.2 The Licensor MAY include or exclude any Contribution and is
+    not obliged to accept it.
+
+7.3 A Contributor MUST NOT submit a Contribution they know
+    infringes the rights of others, or that would remove or
+    defeat any protection in this license.
+
+=======================================================================
+PATENT GRANT
+=======================================================================
+
+8.1 Each Contributor grants each Licensee a worldwide,
+    royalty-free, non-exclusive, irrevocable patent license to
+    make, have made, use, sell, offer for sale, and import the
+    Contribution, limited to the claims necessarily infringed by
+    the Contribution alone.
+
+8.2 If a Licensee initiates patent litigation against any party
+    alleging that the Software infringes a patent, the patent
+    license for that Licensee terminates as of the filing date.
+
+=======================================================================
+NO WARRANTY
+=======================================================================
+
+9.1 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+    KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION
+    WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+    PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+9.2 The Licensor does not warrant that the Software will be
+    error-free, uninterrupted, or fit for a particular purpose.
+
+=======================================================================
+LIMITATION OF LIABILITY
+=======================================================================
+
+10.1 TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE LICENSOR IS NOT
+     LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+     EXEMPLARY, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS,
+     LOSS OF DATA, OR BUSINESS INTERRUPTION, ARISING FROM USE OF
+     OR INABILITY TO USE THE SOFTWARE.
+
+10.2 Nothing in this license excludes liability that cannot be
+     excluded by law.
+
+=======================================================================
+SECURITY DISCLOSURE
+=======================================================================
+
+11.1 A Licensee who discovers a security vulnerability is
+    encouraged to report it privately before public disclosure.
+    The Licensor will make reasonable efforts to address it in a
+    timely manner.
+
+=======================================================================
+TERMINATION
+=======================================================================
+
+12.1 Rights under this license terminate automatically if a
+     Licensee materially breaches its terms, including
+     distributing or selling the Software in breach of Section 5.
+
+12.2 On termination the Licensee must stop distributing the
+     Software and remove it from products and services it
+     distributes.
+
+12.3 Sections 2, 5, 6, 9, 10, 11, 13 survive termination, as do
+     the obligations that by their nature should survive.
+
+=======================================================================
+VERSION TRANSITION
+=======================================================================
+
+13.1 This license does not transfer on its own to a future
+     license. A future license edition becomes applicable only as
+     stated in the transition notice published by the Licensor in
+     this repository. No retroactive change of terms applies to
+     copies already obtained.
+
+=======================================================================
+ENTIRE AGREEMENT
+=======================================================================
+
+14.1 This license is the entire agreement between the Licensor
+     and the Licensee regarding the Software and supersedes prior
+     understandings, whether written or oral.
+
+14.2 If any provision is held invalid or unenforceable, the
+     remaining provisions continue in full force.
+
+14.3 This license may not be modified except by a written
+     instrument signed by the Licensor.
+
+=======================================================================
+END OF MEKRA-X LICENSE v2.0.0
+=======================================================================
